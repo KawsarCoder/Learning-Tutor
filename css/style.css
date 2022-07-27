@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+.car-images1 {
+  height: 700px;
+  background-image: url(../images/cover/cover-4.jpg);
+  background-repeat: no-repeat;
+}
+.car-images2 {
+  height: 700px;
+  background-image: url(../images/cover/cover-5.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+.car-images3 {
+  height: 700px;
+  background-image: url(../images/cover/cover-6.jpg);
+  background-repeat: no-repeat;
+}
+
+.head-text-wrap h2 {
+  line-height: 70px;
+}
+.head-text-wrap span {
+  line-height: 30px;
+}
