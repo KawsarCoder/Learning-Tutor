@@ -9,13 +9,17 @@
 .car-images1 {
   background-image: url(../images/cover/cover-6.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .car-images2 {
   background-image: url(../images/cover/cover-5.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 .car-images3 {
   background-image: url(../images/cover/cover-6.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
+
