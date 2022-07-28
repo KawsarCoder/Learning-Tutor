@@ -7,26 +7,15 @@
   font-family: "Raleway", sans-serif;
 }
 .car-images1 {
-  height: 700px;
-  background-image: url(../images/cover/cover-4.jpg);
-  background-repeat: no-repeat;
-}
-.car-images2 {
-  height: 700px;
-  background-image: url(../images/cover/cover-5.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  
-}
-.car-images3 {
-  height: 700px;
   background-image: url(../images/cover/cover-6.jpg);
   background-repeat: no-repeat;
 }
-
-.head-text-wrap h2 {
-  line-height: 70px;
+.car-images2 {
+  background-image: url(../images/cover/cover-5.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.head-text-wrap span {
-  line-height: 30px;
+.car-images3 {
+  background-image: url(../images/cover/cover-6.jpg);
+  background-repeat: no-repeat;
 }
