@@ -19,12 +19,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- External css link  -->
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/images/learning tutor.png" type="image/x-icon">
     <!-- page title  -->
     <title>Learning Tutor</title>
   </head>
   <body>
     <!-- header start -->
-    <header>
+    <header id="home">
       <!-- top navbar start  -->
       <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
@@ -49,22 +52,22 @@
               class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-center fw-bold"
             >
               <li class="nav-item mx-2">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link" href="#courses">Blog</a>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#footer-id">Contact</a>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#about-info">About</a>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link" href="#">Courses</a>
+                <a class="nav-link" href="#courses">Courses</a>
               </li>
               <li class="nav-item mx-2">
-                <a class="nav-link" href="#">Register</a>
+                <a class="nav-link" href="#register">Register</a>
               </li>
             </ul>
             <form class="d-flex">
@@ -204,7 +207,7 @@
       <!-- header end  -->
     </header>
     <!-- Popular courses section start  -->
-    <section class="">
+    <section id="courses">
       <!-- course heading  -->
       <div class="courses-wrapper mt-5">
         <div class="container col-lg-5 text-center">
@@ -358,7 +361,7 @@
       </div>
     </section>
     <!-- Popular courses section end   -->
-    <section>
+    <section id="register">
       <!-- Register section start  -->
       <div
         class="card container mb-2 mb-sm-3 mb-md-4 mb-lg-5 bg-primary text-white text-sm-center text-md-center text-center text-lg-start"
@@ -425,7 +428,7 @@
       <!-- Register end  -->
     </section>
     <!-- Frequently Qustion section start  -->
-    <section>
+    <section id="about-info">
       <div class="container">
         <div class="courses-wrapper mb-lg-4 mb-2">
           <div class="container col-lg-6 text-center">
@@ -575,7 +578,7 @@
 </div>
 </section>
 <!-- footer start  -->
-<footer class="bg-dark text-white text-center">
+<footer class="bg-dark text-white text-center" id="footer-id">
   <div class="container d-grid justify-content-center">
     <div class="my-lg-5 my-md-4 my-sm-3 my-3">
   <h2 class="my-lg-4 my-3 fw-bold"> <span class="text-warning">Learning</span> Tutor</h2>
